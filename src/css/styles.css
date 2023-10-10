@@ -14,13 +14,73 @@ body {
   color: #fff;
 }
 
+.centerWrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .mainContainer {
   display: flex;
+  align-content: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .profileImage {
-  height: 350px;
+  height: 250px;
+  width: 250px;
   border-radius: 100%;
+  border: 7px solid #fff;
 }
 
+.arrow-container {
+  display: flex;
+  position: relative;
+  max-height: 50px;
+}
+
+.arrow-image {
+  display: flex;
+  height: 50px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.secondContainer {
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* About Me Section */
+
+.AboutMe {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.AboutMe h1 {
+  font-size: 20px;
+  color: #121212;
+}

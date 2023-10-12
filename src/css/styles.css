@@ -31,7 +31,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 120px;
 }
 
 .profileImage {
@@ -136,13 +136,35 @@ body {
   justify-content: start;
   padding-top: 10px;
   width: 100%;
+  gap: 10px;
 }
 
 .ExpContainer img {
   height: 210px;
   background-color: #181818;
-  border-radius: 15px;
+  border-radius: 9px;
 } 
+
+.ExpInfo {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ExpInfo h3 {
+  font-size: 18px;
+}
+
+.tech-images {
+  display: flex;
+  gap: 10px;
+}
+
+.tech-images img {
+  padding: 5px;
+  height: 80px;
+  width: 80px;
+}
 
 .blinking-cursor {
   margin-left: 5px;

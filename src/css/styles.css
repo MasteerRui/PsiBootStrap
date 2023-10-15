@@ -16,10 +16,18 @@ body {
   color: #fff;
 }
 
+.nav {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.nav-link {
+  width: 100% !important;
+}
+
 .centerWrapper {
   margin: 0 auto;
   width: 80%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -42,9 +50,11 @@ body {
 }
 
 .arrow-container {
+  width: 100%;
   margin-top: 50px;
   display: flex;
   position: relative;
+  justify-content: center;
   max-height: 50px;
 }
 
@@ -211,4 +221,19 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+.row {
+  margin-top: 60px;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-4 img {
+  border-radius: 20%;
+  height: 80%;
+  cursor: pointer;
 }

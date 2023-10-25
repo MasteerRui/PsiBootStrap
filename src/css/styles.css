@@ -28,9 +28,13 @@ body {
 .centerWrapper {
   margin: 0 auto;
   width: 80%;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+
+nav {
+  box-sizing: content-box;
 }
 
 .mainContainer {
@@ -133,12 +137,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
 }
 
 .thirdContainer h1 {
   font-size: 25px;
 }
+
 
 .ExpContainer {
   display: flex;
@@ -260,5 +264,27 @@ body {
 }
 
 .logo-lin {
-  height: 60px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #181818;
+  margin-top: 20px;
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+.footer {
+  margin-top: 50px !important;
+}
+
+
+.p-5 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  padding: 0rem !important;
+  padding-top: 3rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 3rem !important;
+  padding-left: 0rem !important;
 }
